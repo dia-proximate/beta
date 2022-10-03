@@ -37642,7 +37642,7 @@ a.u-link.u-text-hover-grey-90:hover {
         --theme-sheet-width-lg: 1080px;
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
-        --theme-sheet-width-xs: 340px;
+        --theme-sheet-width-xs: 300px;
         
         
         
@@ -38025,7 +38025,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-1 {
-    width: 340px;
+    width: 300px;
   }
 }
 
