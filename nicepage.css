@@ -37957,25 +37957,18 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
-.u-header .u-sheet-1 {
-  min-height: 194px;
-  margin-bottom: 0;
+ .u-header {
+  min-height: 258px;
 }
 
-.u-header .u-image-1 {
-  width: 98px;
-  height: 98px;
-  box-shadow: 2px 2px 40px 20px rgba(255,255,255,0);
-  margin: 48px auto 0 76px;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+.u-header .u-text-1 {
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-scale: 1;
+  margin: 34px calc(((100% - 1140px) / 2) + 326px) 0 0;
 }
 
 .u-header .u-menu-1 {
-  margin: -104px 0 60px auto;
+  margin: -74px calc(((100% - 1140px) / 2) + -34px) 60px auto;
 }
 
 .u-header .u-nav-1 {
@@ -37989,45 +37982,50 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 20px auto 0;
 }
 @media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 270px;
-  }
-
-  .u-header .u-image-1 {
-    width: 98px;
-    height: 117px;
-    transition-duration: 0.25s;
-    --animation-custom_in-translate_x: -200px;
+  .u-header .u-text-1 {
+    width: 700px;
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
-    margin-top: 93px;
-    margin-left: 100px;
+    margin-right: calc(((100% - 1140px) / 2) + 299px);
+    margin-left: calc(((100% - 1140px) / 2) + 141px);
   }
 
   .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -96px;
+    margin-top: -74px;
+    margin-right: calc(((100% - 1140px) / 2) + 100px);
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-image-1 {
-    margin-left: 210px;
+  .u-header .u-text-1 {
+    margin-right: calc(((100% - 1140px) / 2) + 189px);
+    margin-left: calc(((100% - 1140px) / 2) + 251px);
   }
 
   .u-header .u-menu-1 {
-    margin-top: -192px;
+    margin-right: calc(((100% - 1140px) / 2) + 210px);
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-image-1 {
-    margin-left: 300px;
+  .u-header .u-text-1 {
+    width: 540px;
+    margin-right: calc(((100% - 1140px) / 2) + 259px);
+    margin-left: calc(((100% - 1140px) / 2) + 341px);
+  }
+
+  .u-header .u-menu-1 {
+    margin-right: calc(((100% - 1140px) / 2) + 300px);
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-image-1 {
-    margin-left: 400px;
+  .u-header .u-text-1 {
+    width: 340px;
+    margin-right: calc(((100% - 1140px) / 2) + 359px);
+    margin-left: calc(((100% - 1140px) / 2) + 441px);
+  }
+
+  .u-header .u-menu-1 {
+    margin-right: calc(((100% - 1140px) / 2) + 400px);
   }
 }
  .u-footer {
