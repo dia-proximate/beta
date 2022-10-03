@@ -1,31 +1,26 @@
  .u-section-1 {
-  background-image: url("/images/Untitled-3.jpg");
+  background-image: url("/images/hinh-nen-powerpoint-cong-nghe-8.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 764px;
+  min-height: 958px;
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  margin: 60px 0 0;
-}
-
-.u-section-1 .u-text-2 {
-  margin: 20px 570px 0 0;
+  margin: 248px auto 0;
 }
 
 .u-section-1 .u-list-1 {
-  width: 570px;
-  height: auto;
-  margin: 30px auto 60px 0;
+  margin-top: 34px;
+  margin-bottom: 60px;
 }
 
 .u-section-1 .u-repeater-1 {
   grid-template-columns: 100%;
   grid-gap: 10px 10px;
-  min-height: 358px;
+  min-height: 501px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -36,44 +31,66 @@
   height: 64px;
   width: 64px;
   background-image: none;
+  font-size: 3.9445em;
+  vertical-align: -11px;
   margin: 0 auto 0 0;
   padding: 10px;
 }
 
-.u-section-1 .u-text-3 {
+.u-section-1 .u-text-2 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+  font-size: 3rem;
   margin: -64px auto 0 84px;
 }
 
-.u-section-1 .u-text-4 {
-  margin-left: 84px;
-  margin-right: auto;
+.u-section-1 .u-text-3 {
+  font-size: 1.875rem;
+  margin: 13px 0 0 84px;
+}
+
+.u-section-1 .u-icon-2 {
+  font-size: 3.9445em;
+  margin-left: 0;
+  margin-right: 0;
+  vertical-align: -11px;
 }
 
 .u-section-1 .u-container-layout-2 {
   padding: 30px;
 }
 
-.u-section-1 .u-icon-2 {
+.u-section-1 .u-icon-3 {
   height: 64px;
   width: 64px;
+  font-size: 3.9445em;
+  vertical-align: -11px;
   background-image: none;
   margin: 0 auto 0 0;
   padding: 10px;
 }
 
-.u-section-1 .u-text-5 {
+.u-section-1 .u-text-4 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+  font-size: 3rem;
   margin: -64px auto 0 84px;
 }
 
-.u-section-1 .u-text-6 {
-  margin-left: 84px;
-  margin-right: auto;
+.u-section-1 .u-text-5 {
+  font-size: 1.875rem;
+  margin: 13px 0 0 84px;
+}
+
+.u-section-1 .u-icon-4 {
+  font-size: 1.5334em;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -81,19 +98,28 @@
     min-height: 726px;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-right: 370px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-text-2 {
-    width: auto;
-    margin-right: 360px;
+  .u-section-1 .u-text-1 {
+    margin-top: 60px;
   }
 
   .u-section-1 .u-list-1 {
-    width: 360px;
+    height: auto;
+  }
+
+  .u-section-1 .u-icon-1 {
+    font-size: 3.9445rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-icon-3 {
+    font-size: 3.9445rem;
   }
 }
 
@@ -106,20 +132,16 @@
     min-height: 655px;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-right: 180px;
-  }
-
   .u-section-1 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .u-section-1 .u-text-3 {
+  .u-section-1 .u-text-2 {
     margin-left: 86px;
   }
 
-  .u-section-1 .u-text-4 {
+  .u-section-1 .u-text-3 {
     margin-left: 86px;
   }
 
@@ -128,11 +150,11 @@
     padding-right: 10px;
   }
 
-  .u-section-1 .u-text-5 {
+  .u-section-1 .u-text-4 {
     margin-left: 86px;
   }
 
-  .u-section-1 .u-text-6 {
+  .u-section-1 .u-text-5 {
     margin-left: 86px;
   }
 }
@@ -143,38 +165,25 @@
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-list-1 {
-    margin-bottom: 0;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
-  }
-
-  .u-section-1 .u-text-3 {
     width: auto;
     margin-right: 50px;
     margin-left: 94px;
   }
 
-  .u-section-1 .u-text-4 {
+  .u-section-1 .u-text-3 {
     margin-left: 94px;
-    margin-right: 0;
     margin-top: 20px;
     width: auto;
   }
 
-  .u-section-1 .u-text-5 {
+  .u-section-1 .u-text-4 {
     width: auto;
     margin-right: 50px;
     margin-left: 94px;
   }
 
-  .u-section-1 .u-text-6 {
+  .u-section-1 .u-text-5 {
     margin-left: 94px;
-    margin-right: 0;
     margin-top: 20px;
     width: auto;
   }
