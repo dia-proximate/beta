@@ -38147,17 +38147,17 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-text-1 {
   font-size: 6rem;
-  text-shadow: -2px 0px 8px rgba(128,128,128,1);
+  text-shadow: -2px -2px 8px rgba(128,128,128,1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 62px auto 0;
+  margin: 30px auto 0;
 }
 
 .u-header .u-menu-1 {
-  margin: 14px 0 0 auto;
+  margin: -46px -18px 60px auto;
 }
 
 .u-header .u-nav-1 {
@@ -38168,15 +38168,16 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-2 {
   font-size: 1rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   margin: 20px auto 0;
 }
-
-
-@media (max-width: 767px) {
-  .u-header .u-text-1 {
-    margin-top: 60px;
+@media (max-width: 1199px) {
+  .u-header .u-menu-1 {
+    margin-top: -46px;
   }
 }
+
+
 @media (max-width: 575px) {
   .u-header .u-text-1 {
     font-size: 2.25rem;
